@@ -15,7 +15,7 @@ import { RubroInsumoComponent } from './components/rubro-insumo/rubro-insumo.com
 import { RubroProductoComponent } from './components/rubro-producto/rubro-producto.component';
 import { RubroInsumoAdminComponent } from './components/admin/rubro-insumo-admin/rubro-insumo-admin.component';
 import { RubroProductoAdminComponent } from './components/admin/rubro-producto-admin/rubro-producto-admin.component';
-import { RubrosComponent } from './rubros/rubros.component';
+import { RubrosComponent } from './components/rubros/rubros.component';
 
 @NgModule({
   declarations: [

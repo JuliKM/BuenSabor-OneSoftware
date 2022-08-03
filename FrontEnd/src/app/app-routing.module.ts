@@ -9,6 +9,7 @@ import { InsumoComponent } from './components/insumo/insumo.component';
 import { ProductoComponent } from './components/producto/producto.component';
 import { RubroInsumoComponent } from './components/rubro-insumo/rubro-insumo.component';
 import { RubroProductoComponent } from './components/rubro-producto/rubro-producto.component';
+import { RubrosComponent } from './components/rubros/rubros.component';
 
 const routes: Routes = [ 
   { path: 'home', component: HomeComponent },
@@ -16,9 +17,8 @@ const routes: Routes = [
   { path: 'insumo-admin/:id', component: InsumoAdminComponent },
   { path: 'productos', component: ProductoComponent },
   { path: 'producto-admin/:id', component: ProductoAdminComponent },
-  { path: 'rubroProductos', component: RubroProductoComponent },
+  { path: 'rubros', component: RubrosComponent },
   { path: 'rubroProducto-admin/:id', component: RubroProductoAdminComponent },
-  { path: 'rubroInsumos', component: RubroInsumoComponent },
   { path: 'rubroInsumo-admin/:id', component: RubroInsumoAdminComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' } ];
 

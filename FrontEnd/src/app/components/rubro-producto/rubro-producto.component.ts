@@ -7,7 +7,6 @@ import { RubroProductoService } from 'src/app/servicios/rubro-producto.service';
 @Component({
   selector: 'app-rubro-producto',
   templateUrl: './rubro-producto.component.html',
-  styleUrls: ['./rubro-producto.component.css']
 })
 export class RubroProductoComponent implements OnInit {
   

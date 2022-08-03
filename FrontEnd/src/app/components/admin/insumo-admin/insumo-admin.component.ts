@@ -7,7 +7,6 @@ import { InsumoService } from 'src/app/servicios/insumo.service';
 @Component({
   selector: 'app-insumo-admin',
   templateUrl: './insumo-admin.component.html',
-  styleUrls: ['./insumo-admin.component.css']
 })
 export class InsumoAdminComponent implements OnInit {
 
